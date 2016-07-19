@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
   teamBContainer = $('<div class="team-list team-b"><h2>Team B</h2></div>').appendTo(mainContainer);
-  $.each(DATA.teamA, function(idx, user) {
+  $.each(DATA.teamB, function(idx, user) {
     $('<div><a href="#">'+user.name+'</a><p>'+user.bio+'</p></div>').appendTo(teamBContainer);
   });
 

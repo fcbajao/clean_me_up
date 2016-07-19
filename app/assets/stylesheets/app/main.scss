@@ -1,0 +1,148 @@
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  background: #ecf0f1;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+  background: #c0392b;
+  color: #ecf0f1;
+}
+
+div.team-list {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 30px;
+
+  h2 {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  div {
+    background: #bdc3c7;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+
+    a {
+      display: block;
+      margin-bottom: 10px;
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      margin: 0;
+      color: #34495e;
+      font-family: serif;
+      line-height: 1.2;
+    }
+  }
+}
+
+div.team-b {
+  div a {
+    color: #8e44ad;
+  }
+}
+
+.team-modal.team-a-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ecf0f1;
+  border: 10px solid #95a5a6;
+
+  header {
+    padding: 10px;
+    background: #2980b9;
+    position: relative;
+
+    h3 {
+      margin: 0;
+      color: #ecf0f1;
+    }
+
+    button {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: #e74c3c;
+      color: #ecf0f1;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  }
+
+  div {
+    padding: 30px;
+
+    p {
+      margin: 0;
+      color: #34495e;
+      font-family: serif;
+      line-height: 1.2;
+    }
+  }
+}
+
+.team-modal.team-b-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ecf0f1;
+  border: 10px solid #95a5a6;
+
+  header {
+    padding: 10px;
+    background: #8e44ad;
+    position: relative;
+
+    h3 {
+      margin: 0;
+      color: #ecf0f1;
+    }
+
+    button {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: #e74c3c;
+      color: #ecf0f1;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  }
+
+  div {
+    padding: 30px;
+
+    p {
+      margin: 0;
+      color: #34495e;
+      font-family: serif;
+      line-height: 1.2;
+    }
+  }
+}
